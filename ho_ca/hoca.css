@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url('hoca.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#fish, #shark, #sua, #cangua,#danca {
+    position: absolute;
+}
+
+#shark img {
+    width: auto;
+    height: 150px;
+}
+
+#fish img, #sua img,#danca img{
+    width: auto;
+    height: 70px;
+}
+#cangua img{
+    width: auto;
+    height: 60px
+}
+
+@keyframes fish {
+    0% { left: 0px; top: 400px; }
+    20% { left: 300px; top: 200px; }
+    40% { left: 600px; top: 400px; }
+    60% { left: 900px; top: 200px; }
+    80% { left: 1200px; top: 400px; }
+    100% { left: 1500px; top: 200px; }
+}
+
+#fish {
+    animation-name: fish;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes shark {
+    0% { left: 0px; top: 100px; }
+    100% { left: 1500px; top: 100px; }
+}
+
+#shark {
+    animation: shark 15s linear infinite;
+}
+
+@keyframes sua {
+    0% { left: 0px; top: 500px; }
+    10% { left: 100px; top: 400px; }
+    20% { left: 200px; top: 300px; }
+    30% { left: 300px; top: 200px; }
+    40% { left: 400px; top: 100px; }
+    50% { left: 500px; top: 100px; }
+    60% { left: 600px; top: 100px; }
+    70% { left: 800px; top: 200px; }
+    80% { left: 1000px; top: 300px; }
+    90% { left: 1200px; top: 400px; }
+    100% { left: 1400px; top: 500px; }
+}
+#sua {
+    animation: sua 6s linear infinite;
+}
+
+@keyframes cangua {
+    0% { left: 1000px; top: 300px; }
+    10% { left: 900px; top: 400px; }
+    20% { left: 800px; top: 500px; }
+    30% { left: 700px; top: 600px; }
+    40% { left: 600px; top: 600px; }
+    50% { left: 500px; top: 600px; }
+    60% { left: 400px; top: 600px; }
+    70%   { left: 200px; top: 500px; }
+    80% { left: 300px; top: 600px;}
+    90% { left: 100px; top: 400px; }
+    100%{left: 0px; top: 300px;}
+}
+
+#cangua{
+    animation: cangua 15s linear infinite;
+}
+@keyframes danca {
+    0% { left: 1200px; top: 200px; }
+    10% { left: 1000px; top: 400px; }
+    20% { left: 900px; top: 400px; }
+    30% { left: 750px; top: 300px; }
+    40% { left: 600px; top: 400px; }
+    50% { left: 500px; top: 600px; }
+    60% { left: 400px; top: 500px; }
+    70%   { left: 200px; top: 400px; }
+    80% { left: 300px; top: 300px;}
+    90% { left: 100px; top: 200px; }
+    100%{left: 0px; top: 150px;}
+}
+#danca
+{
+    animation: danca 15s linear infinite;
+}

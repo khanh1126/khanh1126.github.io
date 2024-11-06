@@ -1,0 +1,84 @@
+.boder
+{
+    width: 675px;
+    height: 850px;
+    background-color: white;
+}
+.vuong
+{
+    width: 160px;
+    height: 140px;
+    background-color: #372f2f87;
+    transform: translate(0px, -136px);
+}
+.tron{
+    width: 80px;
+    height: 160px;
+    background-color: #655f5f87;
+    
+    transform: translate(600px, -160px);
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+}
+.ten{
+    width: 675px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.thongtin
+{
+    width: 255px;
+    height: 700px;
+    background-color: #ffffffcd;
+    transform: translate( 30px,-260px);
+    border-radius: 130px;
+}
+.khanh
+{
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-image: url(khanh.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transform: translate(15px,15px);
+}
+.td
+{
+    width: 308px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    transform: translate(300px,30px);
+    align-content: center;
+    padding-left: 10px;
+}
+.tt
+{
+    width: 308px;
+    height: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    transform: translate(300px,35px);
+    align-content: center;
+    padding-left: 10px;
+}
+.toan
+{
+    height: 700px;
+    width: 330px;
+    background-image: url(toan.jpg);
+    transform: translate(-200px,-150px);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.vuong1
+{
+    width: 160px;
+    height: 130px;
+    background-color: #372f2f87;
+    transform: translate(195px, 170px);
+}
